@@ -47,7 +47,24 @@ xcols = [
     'ucnt1', 'upct1', 'ucnt2', 'upct2', 'pcnt1', 'ppct1', 'pcnt2', 'ppct2', 'rela_p1_cnt', 'rela_p2_cnt',
 ]
 """
-
+"""
 xcols = [
     'ucnt1', 'upct1', 'ucnt2', 'upct2', 'pcnt1', 'ppct1', 'pcnt2', 'ppct2', 'rela_p1_cnt', 'rela_p2_cnt',
+]
+"""
+
+xcols1 = [
+    'ucnt1',
+    # 'upct1',
+    'pcnt1',
+    # 'ppct1',
+    # 'rela_p1_cnt',
+]
+
+xcols2 = [
+    'ucnt2',
+    'upct2',
+    'pcnt2',
+    'ppct2',
+    'rela_p2_cnt',
 ]
