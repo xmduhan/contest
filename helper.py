@@ -40,3 +40,14 @@ def removeDataFrame(dfName):
     if s.get_node(dfName):
         s.remove(dfName)
     s.close()
+
+"""
+xcols = [
+    'stat_view', 'stat_click', 'stat_view_1', 'stat_click_1', 'stat_view_2', 'stat_click_2',
+    'ucnt1', 'upct1', 'ucnt2', 'upct2', 'pcnt1', 'ppct1', 'pcnt2', 'ppct2', 'rela_p1_cnt', 'rela_p2_cnt',
+]
+"""
+
+xcols = [
+    'ucnt1', 'upct1', 'ucnt2', 'upct2', 'pcnt1', 'ppct1', 'pcnt2', 'ppct2', 'rela_p1_cnt', 'rela_p2_cnt',
+]
